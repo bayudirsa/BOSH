@@ -10,7 +10,7 @@ if (empty($_SESSION['username']) AND empty($_SESSION['password'])){
 else{
 ?>
 <html>
-	<head>
+	<head><link rel="shortcut icon" href="images/icon.png" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
