@@ -10,7 +10,7 @@
 		<div id=container>
 			<div class=header>
 				<div class=logo>
-					<img src="images/logo.png" width=180px height=60px>
+					<img src="images/logo.png" width=150px height=60px>
 				</div>
 				<div class=akun>
 					<a href="eror.php">Help</a> | <a href="eror.php">Sign Up</a>
