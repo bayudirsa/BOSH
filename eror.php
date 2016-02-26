@@ -1,0 +1,1 @@
+<script>alert('Content not yet available :( ');  window.location = 'index.php' </script>

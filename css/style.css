@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding:0;
+	font:1em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#container{
+	min-height:650px;
+}
+/*----------------------------------------------------------------header--------------------------------------------------------------------------*/
+.header{
+	width:cover;
+	height:80px;
+	background-color:#CD2929;
+	clear:both;
+}
+.logo{
+	width:300px;
+	height:60px;
+	/*border:1px solid black;*/
+	float:left;
+	margin-top:10px;
+	margin-left:190px;
+}
+.akun{
+	width:150px;
+	height:60px;
+	/*border:1px solid black;*/
+	float:right;
+	margin-top:10px;
+	margin-right:190px;
+	line-height:60px;
+	cursor:pointer;
+	color:white;
+}
+.akun a{
+	text-decoration:none;
+	color:white;
+}
+.akun a:hover{
+	color:#858080;
+	transition:0.8s;
+}
+/*-----------------------------------------------------------------content-------------------------------------------------------------------------*/
+.content{
+	width:cover;
+	height:auto;
+	min-height:520px;
+	padding:10px;
+	/*border:1px solid black;*/
+}
+.iklan{
+	width:600px;
+	height:400px;
+	border:1px solid black;
+	float:left;
+	margin-left:20px;
+	margin-top:60px;
+	border:1px solid #CD2929;
+	box-shadow:1px 1px 3px #CD2929;
+}
+.login{
+	float:left;
+	width:320px;
+	height:170px;
+	margin-top:60px;
+	margin-bottom:190px;
+	padding:10px;
+	border:1px solid #CD2929;
+	box-shadow:1px 1px 3px #CD2929;
+	border-radius:10px;
+	color:#CD2929;
+	margin-left:170px;
+}
+.logindalam{
+	padding:10px;
+	line-height:10px;
+	background-color:#CD2929;
+	font-size:20px;
+	color:white;
+	margin-bottom:10px;
+}	
+.slide{
+	width:980px;
+	height:299px;
+	border:2px solid #CD2929;
+	clear:both;
+	box-shadow:1px 1px 4px #CD4646;
+	background:url(../images/2.jpg) no-repeat;
+}
+.menu{
+	width:980px;
+	height:150px;
+	/*border:1px solid black;*/
+	margin-top:15px;
+}
+.menudalam{
+	width:315px;
+	height:130px;
+	float:left;
+	margin-left:10px;
+	font-size:40px;
+	line-height:130px;
+	background-color:#CD2929;
+	color:white;
+}
+.menudalam:hover{
+	background-color:#CD4646;
+	cursor:pointer;
+	transition:0.7s;
+}
+.isi{
+	width:1080px;
+	height:auto;
+	padding:50px;
+	padding-left:100px;
+	margin-top:10px;
+	/*border:1px solid black;*/
+}
+.voucher{
+	border:3px solid #CD4646;
+	border-radius:8px;
+	box-shadow:1px 1px 4px #CD4646;
+	padding:10px;
+	width:450px;
+}
+input:hover{
+	box-shadow:0px 0px 3px #CD4646;
+}
+/*-----------------------------------------------------------------footer----------------------------------------------------------------------------*/
+.footer{
+	width:cover;
+	height:20px;
+	background-color:#CD2929;
+	clear:both;
+	padding:10px;
+	color:white;
+}
+.footer p{
+	margin-left:180px;
+}
